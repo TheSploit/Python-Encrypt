@@ -4,28 +4,7 @@ W = '\x1b[1;37m'
 RR = '\x1b[1;37m\x1b[31m'
 O = '\x1b[33m'
 B = '\x1b[34m'
-
-echo $bi"  _____       _ ______ "           
-echo $me" / ____|     | |  ____|"           
-echo $pu"| (___  _ __ | | |__   _ __   ___" 
-echo $cy" \___ \| '_ \| |  __| | '_ \ / __|"
-echo $pur" ____) | |_) | | |____| | | | (__" 
-echo $bi"|_____/| .__/|_|______|_| |_|\___|" 
-       echo $pu"| |"                        
-       echo $bi"|_|"    echo $cy"Coders By TheSploit"
-			  echo $pu"WA : 081316577616" 
-  
-      echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
-	  echo $bi"["$pu"1"$bi"]"$i" endcrypt file dengan base64"
-	  echo $bi"["$pu"2"$bi"]"$i" endcrypt file dengan base16"  
-	  echo $bi"["$pu"3"$bi"]"$i" endcrypt file dengan base32"  
-	  echo $bi"["$pu"4"$bi"]"$i" endcrypt file dengan marshal"
-	  echo $bi"["$pu"6"$bi"]"$i" endcrypt file dengan zlib&base64"
-	  echo $bi"["$pu"7"$bi"]"$i" endcrypt file dengan zlib&base64&marshal"
-	  echo $bi"["$pu"8"$bi"]"$i" endcrypt file dengan zlib&base16&marshal"
-	  echo $bi"["$pu"9"$bi"]"$i" endcrypt file dengan zlib&base32&marshal"
-	  echo $bi"["$pu"10"$bi"]"$i" keluar"
-	  echo $bi"["$pu"11"$bi"]"$i" tentang").format(W, O, W, RR, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W)
+print ("{}{}\n______                                   _                \n| ___ \\                                 | |               \n| |_/ / _   _   ___  _ __  _   _  _ __  | |_   ___   _ __ \n|  __/ | | | | / __|| '__|| | | || '_ \\ | __| / _ \\ | '__|\n| |    | |_| || (__ | |   | |_| || |_) || |_ | (_) || |   \n\\_|     \\__, | \\___||_|    \\__, || .__/  \\__| \\___/ |_|   \n         __/ |              __/ || |                      \n        |___/              |___/ |_|  - {}Coders By TheSploit\n        \n{}[++ {}Menu:\n\t\n  {}[{}01{}]{} endcrypt file dengan base64\n  {}[{}02{}]{} endcrypt file dengan base16\n  {}[{}03{}]{} endcrypt file dengan base32\n  {}[{}04{}]{} endcrypt file dengan marshal\n  {}[{}05{}]{} endcrypt file dengan zlib&base64\n  {}[{}06{}]{} endcrypt file dengan zlib&base64&marshal\n  {}[{}07{}]{} endcrypt file dengan zlib&base16&marshal\n  {}[{}08{}]{} endcrypt file dengan zlib&base32&marshal\n  {}[{}09{}]{} keluar\n  {}[{}10{}]{} tentang\n").format(W, O, W, RR, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W)
  
 def main():
     choice = raw_input(RR + '[++ ' + W + 'Choose: ')
@@ -42,7 +21,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '2' or choice == '02':
@@ -58,7 +37,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '3' or choice == '03':
@@ -74,7 +53,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '4' or choice == '04':
@@ -92,7 +71,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '5' or choice == '05':
@@ -109,7 +88,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '6' or choice == '06':
@@ -128,7 +107,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '7' or choice == '07':
@@ -147,7 +126,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '8' or choice == '08':
@@ -166,7 +145,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File not found!'
+            print RR + '[-] ' + W + 'File tidak ditemukan!'
             main()
  
     if choice == '9' or choice == '09':
@@ -176,7 +155,7 @@ def main():
             print '\n\tCODERS\n\t===================================\n\tCODERS BY : TheSploit\n\tCODERS   : Sploit1109\n\tPASTEBIN   : https://pastebin.com/u/TheSPloit\n\tGITHUB     : https://github.com/TheSploit\n\t\t     \n\tSUBS My YOUTUBE ACCOUNT FOR MORE DETAILS\n\t===================================\n\tYoutube : TryOne\n\tGITHUB : TheSploit\n\t===================================\n\t'
             main()
         else:
-            print RR + '[-] ' + W + 'WRONG INPUT!!'
+            print RR + '[-] ' + W + 'Maaf Anda salah Input^_^'
             sys.exit(RR + '[*] ' + W + 'See you and Thanks for using this tools')
  
  
