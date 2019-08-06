@@ -4,7 +4,15 @@ W = '\x1b[1;37m'
 RR = '\x1b[1;37m\x1b[31m'
 O = '\x1b[33m'
 B = '\x1b[34m'
-print ("{}{}\n______                                   _                \n| ___ \\                                 | |               \n| |_/ / _   _   ___  _ __  _   _  _ __  | |_   ___   _ __ \n|  __/ | | | | / __|| '__|| | | || '_ \\ | __| / _ \\ | '__|\n| |    | |_| || (__ | |   | |_| || |_) || |_ | (_) || |   \n\\_|     \\__, | \\___||_|    \\__, || .__/  \\__| \\___/ |_|   \n         __/ |              __/ || |                      \n        |___/              |___/ |_|  - {}Coders By TheSploit\n        \n{}[++ {}Menu:\n\t\n  {}[{}01{}]{} endcrypt file dengan base64\n  {}[{}02{}]{} endcrypt file dengan base16\n  {}[{}03{}]{} endcrypt file dengan base32\n  {}[{}04{}]{} endcrypt file dengan marshal\n  {}[{}05{}]{} endcrypt file dengan zlib&base64\n  {}[{}06{}]{} endcrypt file dengan zlib&base64&marshal\n  {}[{}07{}]{} endcrypt file dengan zlib&base16&marshal\n  {}[{}08{}]{} endcrypt file dengan zlib&base32&marshal\n  {}[{}09{}]{} keluar\n  {}[{}10{}]{} tentang\n").format(W, O, W, RR, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W)
+print ("{}{}\n :::::::: ::::::::: :::       ::::::::::::::    ::: ::::::::  
+:+:    :+::+:    :+::+:       :+:       :+:+:   :+::+:    :+: 
++:+       +:+    +:++:+       +:+       :+:+:+  +:++:+        
++#++:++#+++#++:++#+ +#+       +#++:++#  +#+ +:+ +#++#+        
+       +#++#+       +#+       +#+       +#+  +#+#+#+#+        
+#+#    #+##+#       #+#       #+#       #+#   #+#+##+#    #+# 
+ ######## ###       #######################    #### ########  
+
+- {}Coders By TheSploit\n        \n{}[++ {}Menu:\n\t\n  {}[{}01{}]{} endcrypt file dengan base64\n  {}[{}02{}]{} endcrypt file dengan base16\n  {}[{}03{}]{} endcrypt file dengan base32\n  {}[{}04{}]{} endcrypt file dengan marshal\n  {}[{}05{}]{} endcrypt file dengan zlib&base64\n  {}[{}06{}]{} endcrypt file dengan zlib&base64&marshal\n  {}[{}07{}]{} endcrypt file dengan zlib&base16&marshal\n  {}[{}08{}]{} endcrypt file dengan zlib&base32&marshal\n  {}[{}09{}]{} keluar\n  {}[{}10{}]{} tentang\n").format(W, O, W, RR, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W, B, RR, B, W)
  
 def main():
     choice = raw_input(RR + '[++ ' + W + 'Choose: ')
