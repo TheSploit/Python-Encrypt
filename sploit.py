@@ -38,6 +38,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '3' or choice == '03':
@@ -54,6 +55,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '4' or choice == '04':
@@ -72,6 +74,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '5' or choice == '05':
@@ -89,6 +92,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '6' or choice == '06':
@@ -108,6 +112,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '7' or choice == '07':
@@ -127,6 +132,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '8' or choice == '08':
@@ -146,6 +152,7 @@ def main():
             main()
         except:
             print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
+            print("SALAH GOBLOKK1!1!1!"
             main()
  
     if choice == '9' or choice == '09':
