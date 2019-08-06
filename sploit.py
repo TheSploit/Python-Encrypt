@@ -21,7 +21,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '2' or choice == '02':
@@ -37,7 +37,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '3' or choice == '03':
@@ -53,7 +53,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '4' or choice == '04':
@@ -71,7 +71,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', c
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '5' or choice == '05':
@@ -88,7 +88,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '6' or choice == '06':
@@ -107,7 +107,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '7' or choice == '07':
@@ -126,7 +126,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '8' or choice == '08':
@@ -145,7 +145,7 @@ def main():
             print RR + '[*] ' + W + 'OUTPUT:', f
             main()
         except:
-            print RR + '[-] ' + W + 'File tidak ditemukan!'
+            print RR + '[-] ' + W + 'File tidak ditemukan Zheyenkk!'
             main()
  
     if choice == '9' or choice == '09':
