@@ -152,10 +152,18 @@ def main():
         sys.exit(RR + '[*] ' + W + 'See you and Thanks for using this tools')
     else:
         if choice == '10':
-            print '\n\tCODERS\n\t===================================\n\tCODERS BY : TheSploit\n\tCODERS   : Sploit1109\n\tPASTEBIN   : https://pastebin.com/u/TheSPloit\n\tGITHUB     : https://github.com/TheSploit\n\t\t     \n\tSUBS My YOUTUBE ACCOUNT FOR MORE DETAILS\n\t===================================\n\tYoutube : TryOne\n\tGITHUB : TheSploit\n\t===================================\n\t'
+            print '\n\tCODERS\n\t===================================
+			\n\tCODERS BY : TheSploit
+			\n\tCODERS   : Sploit1109
+			\n\tPASTEBIN   : https://pastebin.com/u/TheSPloit
+			\n\tGITHUB     : https://github.com/TheSploit\n\t\t     \n\tSUBS My YOUTUBE ACCOUNT FOR MORE DETAILS
+			\n\t===================================
+			\n\tYoutube : TryOne
+			\n\tGITHUB : TheSploit
+			\n\t===================================\n\t'
             main()
         else:
-            print RR + '[-] ' + W + 'WRONG INPUT!!'
+            print RR + '[-] ' + W + 'Salah Input!!'
             sys.exit(RR + '[*] ' + W + 'See you and Thanks for using this tools')
  
  
